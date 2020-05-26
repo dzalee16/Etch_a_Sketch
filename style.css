@@ -1,0 +1,50 @@
+body {
+  background-color:#5C5CC5;
+}
+h1 {
+  text-align: center;
+}
+#header {
+  font-weight: bold;
+  color: #0F0F61;
+  text-shadow: 2px 2px 2px;
+  margin: 35px;
+}
+#navBar {
+  background-color: #0F0F61;
+  border-radius: 15px;
+  width: 750px;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+button {
+  padding: 10px;
+  font-size: 18px;
+  background-color:#5C5CC5;
+  color:#0F0F61;
+  border: 1px solid #5C5CC5;
+  border-radius: 15px;
+  display: flex;
+  margin: 10px;
+}
+#buttons {
+ display: flex;
+ justify-content: center;
+}
+.row-grid {
+  display: block;
+  float: left;
+  border: 1px solid black;
+}
+.cell {
+  background: #5C5CC5;
+  border: black 1px solid;
+  width: 35px;
+  height: 35px;
+  margin: 0 auto;
+}
+#squersGridContainer {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px;
+}
